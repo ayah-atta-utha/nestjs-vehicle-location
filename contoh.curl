@@ -1,0 +1,18 @@
+contoh curl :
+
+curl -X POST http://localhost:3000/api/location-history   -H "Content-Type: application/json"   -d '{
+    "vehicleId": 1,
+    "location": {"x":30,"y":10},
+    "speed": 60.5,
+    "direction": 90.0,
+    "timestamp": "2024-12-24T00:00:00",
+    "vehicleId": 1
+  }'
+
+  curl -X POST http://localhost:3000/api/vehicles \
+  -H "Content-Type: application/json" \
+  -d '{
+    "typeVehicle": "car",
+    "codeVehicle": "1234567890123456789012",
+    "vehicleNumber": "XYZ1234567"
+  }'

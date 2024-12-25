@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",  
+    "module": "CommonJS",  
+    "strict": true,  
+    "esModuleInterop": true,  
+    "skipLibCheck": true,  
+    "experimentalDecorators": true,  
+    "emitDecoratorMetadata": true,  
+    "resolveJsonModule": true,  
+    "moduleResolution": "node",  
+    "noImplicitAny": true,  
+    "downlevelIteration": true,  
+    "forceConsistentCasingInFileNames": true,
+     "outDir": "./dist",
+     "sourceMap": true,
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+
+ 
+
